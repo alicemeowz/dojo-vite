@@ -1,15 +1,13 @@
 import './App.css'
 import React from 'react';
+import { initializeApp } from 'firebase/app';
+
+
 
 function App() {
-
   return (
     <>
-
-
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Home Screen</h1>
     </>
   )
 }
