@@ -1,8 +1,9 @@
 [build]
-    publish = "dist"
-    command = "pnpm run build"
+  command = "vite build"
+  functions = "netlify/functions"
+  publish = "dist"
 
-[functions]
+ [functions]
     directory = "/netlify/functions/" 
 
 [[redirects]]
