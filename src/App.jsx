@@ -1,17 +1,5 @@
 import './App.css'
-import { initializeApp } from 'firebase/app';
-import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
-
-
-const app = initializeApp();
-
-const auth = getAuth()
-
-onAuthStateChanged(auth, user => {
-  console.log({ user });
-})
-
-signInAnonymously(auth);
+import React from 'react';
 
 const App = () => {
   return (
