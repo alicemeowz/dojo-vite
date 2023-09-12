@@ -7,7 +7,6 @@ import { firebaseApp } from "../services/firebase";
 function Login() {
     const [input, setInput] = useState({ email: "", password: "" });
     const [error, setError] = useState(null);
-    const [success, setSuccess] = useState(null);
 
     // initialised auth instance
     const auth = getAuth(firebaseApp);
@@ -24,6 +23,7 @@ function Login() {
             .then((userCredential) => {
                 // Signed in
                 console.log(userCredential.user);
+                // ...
             })
             .catch((err) => {
                 if (
@@ -31,11 +31,9 @@ function Login() {
                     err.code === AuthErrorCodes.USER_DELETED
                 ) {
                     setError("The email address or password is incorrect");
-                } else if (err.code) {
+                } else {
                     console.log(err.code);
                     alert(err.code);
-                } else {
-                    setSuccess("Testing");
                 }
             });
     };
