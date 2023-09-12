@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Photo App Next Steps
+* [ ] Surround Home Page with Protected Route
+* [ ] Add in Space Background
+* [ ] Use MUI to create professional looking layout for components
+* [ ] Add email verification. Right now you can sign in without verifying through email. 
+* [ ] Add Google oAuth
