@@ -85,7 +85,7 @@ function Signup() {
                 </div>
             </form>
             <div className="option">
-                <p>Don't have an account?<Link to="/login">Sign Up</Link></p>
+                <p>Have an account?<Link to="/login">Sign In</Link></p>
             </div>
         </div>
     );
