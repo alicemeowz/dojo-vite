@@ -16,16 +16,64 @@ const Expenses = () => {
               <th>Due</th>
             </tr>
             <tr>
-              <td>📱</td>
-              <td>Phone (Alice)</td>
-              <td>$30</td>
-              <td>24th</td>
+              <td>🏠</td>
+              <td>Rent</td>
+              <td>$1400</td>
+              <td>1st</td>
             </tr>
             <tr>
-              <td>📱</td>
-              <td>iPhone </td>
+              <td>💊</td>
+              <td>Ambetter Insurance (Alice)</td>
+              <td>$21</td>
+              <td>1st</td>
+            </tr>
+            <tr>
+              <td>💊</td>
+              <td>Humana Insurance (Alice)</td>
+              <td>$23</td>
+              <td>6th</td>
+            </tr>
+            <tr>
+              <td>📺</td>
+              <td>Hulu+Disney</td>
+              <td>$23</td>
+              <td>6th</td>
+            </tr>
+            <tr>
+              <td>📺</td>
+              <td>HBO</td>
+              <td>$7.99</td>
+              <td>9th</td>
+            </tr>
+            <tr>
+              <td>📺</td>
+              <td>Discord Nitro (Alice)</td>
               <td>$10</td>
-              <td>24th</td>
+              <td>10th</td>
+            </tr>
+            <tr>
+              <td>📺</td>
+              <td>Google Storage (Alice)</td>
+              <td>$10</td>
+              <td>10th</td>
+            </tr>
+            <tr>
+              <td>🕹️</td>
+              <td>Nintendo </td>
+              <td>$4</td>
+              <td>11th</td>
+            </tr>
+            <tr>
+              <td>✒️</td>
+              <td>Inkdrop (Tristan)</td>
+              <td>$5</td>
+              <td>12th</td>
+            </tr>
+            <tr>
+              <td>🏋🏼‍♂️</td>
+              <td>Youfit </td>
+              <td>$30</td>
+              <td>16th</td>
             </tr>
             <tr>
               <td>💳</td>
@@ -34,10 +82,22 @@ const Expenses = () => {
               <td>17th</td>
             </tr>
             <tr>
+              <td>📱</td>
+              <td>Phone (Alice)</td>
+              <td>$30</td>
+              <td>24th</td>
+            </tr>
+            <tr>
               <td>📺</td>
-              <td>Discord Nitro (Alice)</td>
+              <td>Crunchyroll </td>
+              <td>$12</td>
+              <td>21st</td>
+            </tr>
+            <tr>
+              <td>📱</td>
+              <td>iPhone </td>
               <td>$10</td>
-              <td>10th</td>
+              <td>24th</td>
             </tr>
             <tr>
               <td>🌲</td>
@@ -65,27 +125,9 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>📺</td>
-              <td>Hulu+Disney</td>
-              <td>$23</td>
-              <td>6th</td>
-            </tr>
-            <tr>
-              <td>📺</td>
-              <td>HBO</td>
-              <td>$7.99</td>
-              <td>9th</td>
-            </tr>
-            <tr>
-              <td>✒️</td>
-              <td>Inkdrop (Tristan)</td>
+              <td>Prime Video</td>
               <td>$5</td>
-              <td>12th</td>
-            </tr>
-            <tr>
-              <td>🏋🏼‍♂️</td>
-              <td>Youfit </td>
-              <td>$30</td>
-              <td>16th</td>
+              <td>28th</td>
             </tr>
             <tr>
               <td>🥖</td>
