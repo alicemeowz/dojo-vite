@@ -11,11 +11,11 @@ export class ParticleBackground extends Component {
 
     render() {
         let config = {
-            num: [4, 7],
+            num: [7, 7],
             rps: 0.1,
             radius: [1, 40],
             life: [1.5, 3],
-            v: [2, 3],
+            v: [1, 1],
             tha: [-40, 40],
             alpha: [0.6, 0],
             scale: [.1, 0.4],

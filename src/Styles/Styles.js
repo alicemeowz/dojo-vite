@@ -9,25 +9,23 @@ export const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     display: flex;
     justify-content: center;
 
     h1 {
         font-size: 35px;
+        text-align: center;
         color: white;
     }
 
-    @media screen and (max-width: 500px) {
-        margin-left: 0%;
-    }
+    // @media screen and (max-width: 800px) {
+    //     margin-left: -11%;
+    // }
 
     @media screen and (max-width: 450px) {
-        margin-left: 0%;
-
-        h1 {
-            margin-left: 0%;
-        }
+        margin-top: -10%;
+        height: 100vh;
     }
 `
 
@@ -44,13 +42,6 @@ export const ExpensesContainer = styled.div`
         padding: 10px 50px 10px 50px;
         margin-bottom: -18px;
     }
-
-    
-    @media screen and (max-width: 500px) {
-        margin-left: 0%;
-    }
-
-
 `
 
 export const TableContainer = styled.div`
@@ -59,6 +50,7 @@ export const TableContainer = styled.div`
     justify-content: center;
     flex-direction: column;
     grid-gap: 20px;
+    align-items: center;
     
     table {
         border: 2px solid white;
