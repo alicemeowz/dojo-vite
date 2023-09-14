@@ -21,6 +21,14 @@ export const HomeContainer = styled.div`
     @media screen and (max-width: 500px) {
         margin-left: 0%;
     }
+
+    @media screen and (max-width: 450px) {
+        margin-left: 0%;
+
+        h1 {
+            margin-left: 0%;
+        }
+    }
 `
 
 export const ExpensesContainer = styled.div`
@@ -37,9 +45,12 @@ export const ExpensesContainer = styled.div`
         margin-bottom: -18px;
     }
 
+    
     @media screen and (max-width: 500px) {
-        margin-left: 4%;
+        margin-left: 0%;
     }
+
+
 `
 
 export const TableContainer = styled.div`
