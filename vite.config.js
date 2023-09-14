@@ -14,8 +14,8 @@ export default defineConfig({
 				},
 				includeAssets: ['favicon.ico'],
 				manifest: {
-				  name: 'Vite Photo App',
-				  short_name: 'Vite App',
+				  name: 'Model Connect App',
+				  short_name: 'PhoMod',
 				  description: 'Photo App with Vite',
 				  theme_color: '#ffffff',
 				  icons: [
