@@ -14,21 +14,16 @@ export default defineConfig({
 				},
 				includeAssets: ['favicon.ico'],
 				manifest: {
-				  name: 'Model Connect App',
-				  short_name: 'PhoMod',
+				  name: 'Bills',
+				  short_name: 'Bills',
 				  description: 'Photo App with Vite',
 				  theme_color: '#ffffff',
 				  icons: [
 					{
-					  src: '/icons/pwa-192x192.png',
+					  src: '/icons/bill-Icon.png',
 					  sizes: '192x192',
 					  type: 'image/png'
 					},
-					{
-					  src: '/icons/pwa-512x512.png',
-					  sizes: '512x512',
-					  type: 'image/png'
-					}
 				  ]
 				}
 			})
