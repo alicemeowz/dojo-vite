@@ -20,6 +20,11 @@ export default defineConfig({
 				  theme_color: '#ffffff',
 				  icons: [
 					{
+					  src: '/icons/bills-128x128.png',
+					  sizes: '128x128',
+					  type: 'image/png'
+					},
+					{
 					  src: '/icons/bills-512x512.png',
 					  sizes: '512x512',
 					  type: 'image/png'
