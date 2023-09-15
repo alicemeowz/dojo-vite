@@ -17,7 +17,7 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>🏠</td>
-              <td>Rent</td>
+              <td>Rent (Tristan)</td>
               <td>$1400</td>
               <td>1st</td>
             </tr>
@@ -82,16 +82,16 @@ const Expenses = () => {
               <td>17th</td>
             </tr>
             <tr>
-              <td>📱</td>
-              <td>Phone (Alice)</td>
-              <td>$30</td>
-              <td>24th</td>
-            </tr>
-            <tr>
               <td>📺</td>
               <td>Crunchyroll </td>
               <td>$12</td>
               <td>21st</td>
+            </tr>
+            <tr>
+              <td>📱</td>
+              <td>Phone (Alice)</td>
+              <td>$30</td>
+              <td>24th</td>
             </tr>
             <tr>
               <td>📱</td>
@@ -142,8 +142,8 @@ const Expenses = () => {
               <th>Tristan/Month</th>
             </tr>
             <tr>
-              <td>$376</td>
-              <td>$236</td>
+              <td>$433.50</td>
+              <td>$1646.50</td>
             </tr>
           </table>
         </TableContainer>
