@@ -17,7 +17,7 @@ export default defineConfig({
 				  name: 'Bills',
 				  short_name: 'Bills',
 				  description: 'Photo App with Vite',
-				  theme_color: '#000000',
+				  theme_color: 'black',
 				  icons: [
 					{
 					  src: '/icons/bills-128x128.png',
