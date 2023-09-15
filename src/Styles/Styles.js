@@ -19,13 +19,13 @@ export const HomeContainer = styled.div`
         color: white;
     }
 
-    // @media screen and (max-width: 800px) {
-    //     margin-left: -11%;
-    // }
-
     @media screen and (max-width: 450px) {
-        margin-top: -10%;
+        margin-top: 0%;
         height: 100vh;
+
+        h1 {
+            margin-top: 20%;
+        }
     }
 `
 
@@ -69,7 +69,7 @@ export const TableContainer = styled.div`
 
     @media screen and (max-width: 500px) {
         table {
-            width: 310px;
+            width: 360px;
         }
 
         th {
