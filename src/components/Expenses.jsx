@@ -35,12 +35,6 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>📺</td>
-              <td>Hulu+Disney</td>
-              <td>$23</td>
-              <td>6th</td>
-            </tr>
-            <tr>
-              <td>📺</td>
               <td>HBO</td>
               <td>$7.99</td>
               <td>9th</td>
@@ -131,7 +125,13 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>🥖</td>
-              <td>Groceries </td>
+              <td>Groceries (Tristan)</td>
+              <td>$100</td>
+              <td>♾️</td>
+            </tr>
+            <tr>
+              <td>🥖</td>
+              <td>Groceries (Alice)</td>
               <td>$100</td>
               <td>♾️</td>
             </tr>
