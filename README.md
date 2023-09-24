@@ -1,9 +1,50 @@
-## Photo App Next Steps
-* [ ] Surround Home Page with Protected Route
-* [ ] Add in Space Background
-* [ ] Use MUI to create professional looking layout for components
-* [ ] Add email verification. Right now you can sign in without verifying through email. 
-* [ ] Add Google oAuth
+# The Alice Dojo-Blog Project
+### First start your Frontend
+```
+npm start
+```
+### Start your Backend
+```
+npm run data
+```
+To start your backend you need to run the command to start json-server. 
+This is the service that is watching your db.json file in data/db.json that is being fetched with `fetch('http://localhost:8000/blogs')`. This command is:
+
+
+
+
+
+
+
+
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+
+
+
 
 ## README
 🚀 Features
